@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "StickyNotes.API.Controllers.StickyNotesController",
+    "Method": "GetAllStickyNotes",
+    "RelativePath": "api/StickyNotes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickyNotes.API.Controllers.StickyNotesController",
+    "Method": "AddStickyNote",
+    "RelativePath": "api/StickyNotes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stickyNote",
+        "Type": "StickyNotes.API.Models.Entities.StickyNote",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickyNotes.API.Controllers.StickyNotesController",
+    "Method": "GetStickyNoteById",
+    "RelativePath": "api/StickyNotes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickyNotes.API.Controllers.StickyNotesController",
+    "Method": "UpdateStickyNote",
+    "RelativePath": "api/StickyNotes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedStickyNote",
+        "Type": "StickyNotes.API.Models.Entities.StickyNote",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickyNotes.API.Controllers.StickyNotesController",
+    "Method": "DeleteStickyNote",
+    "RelativePath": "api/StickyNotes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StickyNotes.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StickyNotes.API.WeatherForecast, StickyNotes.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

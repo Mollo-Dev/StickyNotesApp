@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Notes App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="toggle-container">
+    <span>🌞</span>
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider"></span>
+    </label>
+    <span>🌙</span>
+  </div>  
+  <h1 class="app-title">Sticky Notes App – Boost Your Productivity</h1>
+<div class="container">
+  <div class="notes__sidebar">
+    <input type="text" id="title" placeholder="Add title">
+    <textarea id="description" placeholder="Add description"></textarea>
+    <button id="btnSave">Save</button>
+    <button id="btnDelete" class="btn-delete hidden">Delete</button>
+  </div>
+  <div class="notes__container" id="notes__container">
+  
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+<footer class="footer">
+  <p>&copy; 2025 Sticky Notes App — Built by Mollo</p>
+  <a href="https://github.com/Mollo-Dev" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a> |
+  <a href="https://www.linkedin.com/in/lebohang-mollo-75a975306" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+</footer>
+</html>
